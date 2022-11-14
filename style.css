@@ -1,4 +1,6 @@
-
+*{
+    list-style-type: none;
+}
 
 .my-img-wrapper img{
     width: 100%;
@@ -80,4 +82,16 @@
     border: none;
     background-color: #f5f5f5;
     border-radius: 50px;
+}
+
+footer{
+    background-color: #00439c;
+}
+
+footer .my-img-wrapper{
+    width: 120px;
+}
+
+footer .my-img-wrapper-2{
+    width: 25px;
 }
