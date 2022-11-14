@@ -35,6 +35,7 @@ header .my-login button{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: top 0 left 50%;
+    background-size: cover;
     height: 550px;
 }
 
@@ -56,10 +57,29 @@ header .my-login button{
     background-color: #cd3d0f;
 }
 
+#first-cards img{
+    border-radius: 20px;
+}
+
 #main-product button{
     border: none;
     background-color: #2d64e6;
     border-radius: 50px;
+}
+
+.blanket{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255, .35);
+    transition: .4s;
+}
+
+.blanket:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0);
+    border-bottom: 1px solid #2d64e6;
 }
 
 #main-game{
