@@ -19,6 +19,18 @@ header .my-img-wrapper-2 img{
     width: 50px;
 }
 
+header .my-img-wrapper-3 img{
+    width: 25px;
+}
+
+header .my-login button{
+    border: none;
+    border-radius: 50px;
+    background-color: #363636;
+}
+
+
+
 #jumbo{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
