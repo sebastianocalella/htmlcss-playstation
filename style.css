@@ -28,3 +28,9 @@
     border-radius: 50px;
     background-color: #cd3d0f;
 }
+
+#main-product button{
+    border: none;
+    background-color: #2d64e6;
+    border-radius: 50px;
+}
