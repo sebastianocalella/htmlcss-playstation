@@ -19,7 +19,7 @@
     width: 65%;
 }
 
-.my-content-wrapper{
+#jumbo .my-content-wrapper{
     height: 550px;
 }
 
@@ -71,3 +71,4 @@
     background-color: #d9dadc;
     border-radius: 50px;
 }
+
