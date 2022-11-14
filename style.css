@@ -1,5 +1,9 @@
 
 
+.my-img-wrapper img{
+    width: 100%;
+}
+
 #jumbo{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
@@ -11,7 +15,7 @@
     height: 550px;
 }
 
-.my-img-wrapper img{
+#jumbo .my-img-wrapper img{
     width: 65%;
 }
 
