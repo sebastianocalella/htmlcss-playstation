@@ -72,3 +72,12 @@
     border-radius: 50px;
 }
 
+#playstation-now{
+    background-color: #161c3b;
+}
+
+#playstation-now button{
+    border: none;
+    background-color: #f5f5f5;
+    border-radius: 50px;
+}
