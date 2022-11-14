@@ -6,6 +6,19 @@
     width: 100%;
 }
 
+header .dark-bar{
+    background-color: black;
+    height: 30px;
+}
+
+header .my-img-wrapper img{
+    width: 80px;
+}
+
+header .my-img-wrapper-2 img{
+    width: 50px;
+}
+
 #jumbo{
     background-image: url(./img/jumbo-bg.png);
     background-repeat: no-repeat;
