@@ -1,0 +1,26 @@
+
+
+#jumbo{
+    background-image: url(./img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 0 left 50%;
+    height: 550px;
+}
+
+#jumbo .my-rules{
+    height: 550px;
+}
+
+.my-img-wrapper img{
+    width: 65%;
+}
+
+.my-content-wrapper{
+    height: 550px;
+}
+
+#jumbo button{
+    border: none;
+    border-radius: 50px;
+    background-color: #cd3d0f;
+}
