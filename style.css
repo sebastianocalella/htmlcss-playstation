@@ -59,6 +59,17 @@ main{
     background-color: #cd3d0f;
 }
 
+#first-cards .my-img-wrapper{
+    padding: 2px;
+    border-radius: 22px;
+    margin-bottom: 2px;
+}
+
+#first-cards .my-img-wrapper:hover{
+    border: 2px solid #2d64e6;
+    margin-bottom: 0;
+}
+
 #first-cards img{
     border-radius: 20px;
 }
