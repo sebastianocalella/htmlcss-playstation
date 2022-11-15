@@ -2,6 +2,14 @@
     list-style-type: none;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 .my-img-wrapper img{
     width: 100%;
 }
