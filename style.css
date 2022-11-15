@@ -29,7 +29,9 @@ header .my-login button{
     background-color: #363636;
 }
 
-
+main{
+    margin-top: 106px;
+}
 
 #jumbo{
     background-image: url(./img/jumbo-bg.png);

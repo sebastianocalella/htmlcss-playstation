@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>htmlcss-playstation</title>
 
-        <!--bootstrap 5.0.2 reference-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!--bootstrap 5.2.2 reference-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
         <!--CSS style elements-->
         <link rel="stylesheet" href="style.css">
@@ -18,8 +18,8 @@
         
     </head>
     <body>
-        <header class="position-relative"> <!--header logo and navbar-->
-            <div class="dark-bar"> <!--bg-black unfixed part of header-->
+        <header class="fixed-top"> <!--header logo and navbar-->
+            <div class="dark-bar">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col text-end">
@@ -31,7 +31,7 @@
                 </div>
             </div>
 
-            <nav class="navbar sticky-top navbar-expand-lg bg-white"> <!--white fixed header part-->
+            <nav class="navbar navbar-expand-lg bg-white">
                 <div class="container">
                     <a class="navbar-brand ms-2" href="#">
                         <div class="my-img-wrapper-2">
@@ -641,5 +641,9 @@
                 </div>
             </div>
         </footer>
+
+        <!--JS reference for bootstrap 5.2.2-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
     </body>
 </html>
