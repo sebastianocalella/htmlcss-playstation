@@ -27,6 +27,12 @@ header .my-login button{
     border: none;
     border-radius: 50px;
     background-color: #363636;
+    transition: .4s;
+    color: white;
+}
+
+header .my-login button:hover{
+    color: black;
 }
 
 main{
