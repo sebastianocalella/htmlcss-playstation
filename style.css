@@ -116,6 +116,10 @@ main{
     background-color: #1f1f1f;
 }
 
+#latest-games img{
+    border-radius: 20px;
+}
+
 #other-products button{
     border: none;
     background-color: #2d64e6;
