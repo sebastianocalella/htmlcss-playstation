@@ -94,6 +94,7 @@ main{
 
 #first-cards .my-img-wrapper:hover{
     margin-top: 0;
+    cursor: pointer;
 }
 
 #first-cards .my-img-wrapper:hover .blanket{
@@ -148,6 +149,16 @@ main{
 
 #latest-games img{
     border-radius: 20px;
+}
+
+#latest-games .my-img-wrapper{
+    padding: 5px;
+    transition: .35s;
+}
+
+#latest-games .my-img-wrapper:hover{
+    padding: 0;
+    cursor: pointer;
 }
 
 #other-products button{
