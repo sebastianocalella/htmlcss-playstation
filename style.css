@@ -73,15 +73,31 @@ main{
     background-color: #cd3d0f;
 }
 
+#first-cards .blanket{
+    background-color: rgb(255, 255, 255, 0);
+}
+
 #first-cards .my-img-wrapper{
     padding: 2px;
     border-radius: 22px;
     margin-bottom: 2px;
 }
 
+#first-cards:hover .blanket{
+    background-color: rgb(255, 255, 255, .25);
+}
+
+#first-cards .my-img-wrapper {
+    margin-top: 15px;
+    transition: .35s;
+}
+
 #first-cards .my-img-wrapper:hover{
-    border: 2px solid #2d64e6;
-    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#first-cards .my-img-wrapper:hover .blanket{
+    background-color: rgb(255, 255, 255, 0);
 }
 
 #first-cards img{
@@ -103,7 +119,7 @@ main{
     transition: .4s;
 }
 
-.blanket:hover{
+#main-product .blanket:hover{
     cursor: pointer;
     background-color: rgb(255, 255, 255, 0);
     border-bottom: 1px solid #2d64e6;
