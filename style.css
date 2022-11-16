@@ -74,11 +74,10 @@ main{
 }
 
 #first-cards .blanket{
-    background-color: rgb(255, 255, 255, 0);
+    background-color: rgb(255, 255, 255, .12);
 }
 
 #first-cards .my-img-wrapper{
-    padding: 2px;
     border-radius: 22px;
     margin-bottom: 2px;
 }
@@ -95,6 +94,7 @@ main{
 #first-cards .my-img-wrapper:hover{
     margin-top: 0;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 15px 7px;
 }
 
 #first-cards .my-img-wrapper:hover .blanket{
